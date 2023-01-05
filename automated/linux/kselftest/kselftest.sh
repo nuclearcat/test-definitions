@@ -206,6 +206,7 @@ elif [ -n "${TST_CMDFILES}" ]; then
 else
     ./run_kselftest.sh 2>&1 | tee "${LOGFILE}"
 fi
+echo BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA BANANA 
 parse_output
 # shellcheck disable=SC2164
 cd - || exit
